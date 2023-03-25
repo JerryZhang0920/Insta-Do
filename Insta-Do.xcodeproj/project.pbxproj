@@ -16,6 +16,9 @@
 		C427B50529CE61FD00F777B2 /* Insta_DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B50429CE61FD00F777B2 /* Insta_DoTests.swift */; };
 		C427B50F29CE61FD00F777B2 /* Insta_DoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B50E29CE61FD00F777B2 /* Insta_DoUITests.swift */; };
 		C427B51129CE61FD00F777B2 /* Insta_DoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B51029CE61FD00F777B2 /* Insta_DoUITestsLaunchTests.swift */; };
+		C4458E7929CE8CA400300EB4 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4458E7829CE8CA400300EB4 /* FloatingButton.swift */; };
+		C4458E7C29CE8D1800300EB4 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4458E7B29CE8D1800300EB4 /* TaskEditView.swift */; };
+		C4458E7F29CE8D8A00300EB4 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4458E7E29CE8D8A00300EB4 /* TaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C427B50A29CE61FD00F777B2 /* Insta-DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta-DoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C427B50E29CE61FD00F777B2 /* Insta_DoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_DoUITests.swift; sourceTree = "<group>"; };
 		C427B51029CE61FD00F777B2 /* Insta_DoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_DoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4458E7829CE8CA400300EB4 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		C4458E7B29CE8D1800300EB4 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		C4458E7E29CE8D8A00300EB4 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		C427B4EC29CE61FB00F777B2 /* Insta-Do */ = {
 			isa = PBXGroup;
 			children = (
+				C4458E7D29CE8D4000300EB4 /* View */,
 				C427B4ED29CE61FB00F777B2 /* Insta_DoApp.swift */,
 				C427B4EF29CE61FB00F777B2 /* TaskListView.swift */,
 				C427B4F129CE61FD00F777B2 /* Assets.xcassets */,
@@ -133,6 +140,16 @@
 				C427B51029CE61FD00F777B2 /* Insta_DoUITestsLaunchTests.swift */,
 			);
 			path = "Insta-DoUITests";
+			sourceTree = "<group>";
+		};
+		C4458E7D29CE8D4000300EB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4458E7B29CE8D1800300EB4 /* TaskEditView.swift */,
+				C4458E7829CE8CA400300EB4 /* FloatingButton.swift */,
+				C4458E7E29CE8D8A00300EB4 /* TaskListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4458E7F29CE8D8A00300EB4 /* TaskListView.swift in Sources */,
 				C427B4F729CE61FD00F777B2 /* Persistence.swift in Sources */,
 				C427B4F029CE61FB00F777B2 /* TaskListView.swift in Sources */,
+				C4458E7929CE8CA400300EB4 /* FloatingButton.swift in Sources */,
+				C4458E7C29CE8D1800300EB4 /* TaskEditView.swift in Sources */,
 				C427B4FA29CE61FD00F777B2 /* Insta_Do.xcdatamodeld in Sources */,
 				C427B4EE29CE61FB00F777B2 /* Insta_DoApp.swift in Sources */,
 			);

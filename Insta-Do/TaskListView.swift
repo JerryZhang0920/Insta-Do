@@ -12,7 +12,7 @@ struct TaskListView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \TaskItem.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \TaskItem.dueDate, ascending: true)],
         animation: .default)
     private var items: FetchedResults<TaskItem>
 
@@ -33,13 +33,9 @@ struct TaskListView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
+        
             }
-            Text("Select an item")
+           
         }
     }
 
