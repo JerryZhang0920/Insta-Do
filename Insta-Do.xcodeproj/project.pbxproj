@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C427B4EE29CE61FB00F777B2 /* Insta_DoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B4ED29CE61FB00F777B2 /* Insta_DoApp.swift */; };
-		C427B4F029CE61FB00F777B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B4EF29CE61FB00F777B2 /* ContentView.swift */; };
+		C427B4F029CE61FB00F777B2 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B4EF29CE61FB00F777B2 /* TaskListView.swift */; };
 		C427B4F229CE61FD00F777B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C427B4F129CE61FD00F777B2 /* Assets.xcassets */; };
 		C427B4F529CE61FD00F777B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C427B4F429CE61FD00F777B2 /* Preview Assets.xcassets */; };
 		C427B4F729CE61FD00F777B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C427B4F629CE61FD00F777B2 /* Persistence.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		C427B4EA29CE61FB00F777B2 /* Insta-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C427B4ED29CE61FB00F777B2 /* Insta_DoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_DoApp.swift; sourceTree = "<group>"; };
-		C427B4EF29CE61FB00F777B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C427B4EF29CE61FB00F777B2 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		C427B4F129CE61FD00F777B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C427B4F429CE61FD00F777B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C427B4F629CE61FD00F777B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C427B4ED29CE61FB00F777B2 /* Insta_DoApp.swift */,
-				C427B4EF29CE61FB00F777B2 /* ContentView.swift */,
+				C427B4EF29CE61FB00F777B2 /* TaskListView.swift */,
 				C427B4F129CE61FD00F777B2 /* Assets.xcassets */,
 				C427B4F629CE61FD00F777B2 /* Persistence.swift */,
 				C427B4FB29CE61FD00F777B2 /* Info.plist */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C427B4F729CE61FD00F777B2 /* Persistence.swift in Sources */,
-				C427B4F029CE61FB00F777B2 /* ContentView.swift in Sources */,
+				C427B4F029CE61FB00F777B2 /* TaskListView.swift in Sources */,
 				C427B4FA29CE61FD00F777B2 /* Insta_Do.xcdatamodeld in Sources */,
 				C427B4EE29CE61FB00F777B2 /* Insta_DoApp.swift in Sources */,
 			);
